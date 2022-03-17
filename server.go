@@ -26,7 +26,7 @@ import (
 func main() {
 	bot, err := linebot.New(
 		os.Getenv("458612a9aa094d00aa93d3211499024a"),
-		os.Getenv("A/GuO0BjRPAxi8Pot2HkYhr8WZPjT8vT51WTn9DOuNlytuyt8y9pmfxvql6lboBKYdM1mrhHcnfMrHITchIHVNmaHW289I/SazoC/f++XLpRd9w0kth5mjgu9uer8djOojm1ghIa66VVsYivefB8mAdB04t89/1O/w1cDnyilFU="),
+		os.Getenv("CoUSULAzNPSSs/BPlXbqnkPAkhYYp3AxdaAxys/XZi2dDwUQvPuq6nvx/TDfVH43YdM1mrhHcnfMrHITchIHVNmaHW289I/SazoC/f++XLocDf7KZesDDO2VHH5LYwX+M3IjMhEGAQhWM4XYE7XjdAdB04t89/1O/w1cDnyilFU="),
 	)
 	if err != nil {
 		log.Fatal(err)
