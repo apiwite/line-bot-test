@@ -25,8 +25,8 @@ import (
 
 func main() {
 	bot, err := linebot.New(
-		os.Getenv("458612a9aa094d00aa93d3211499024a"),
-		os.Getenv("CoUSULAzNPSSs/BPlXbqnkPAkhYYp3AxdaAxys/XZi2dDwUQvPuq6nvx/TDfVH43YdM1mrhHcnfMrHITchIHVNmaHW289I/SazoC/f++XLocDf7KZesDDO2VHH5LYwX+M3IjMhEGAQhWM4XYE7XjdAdB04t89/1O/w1cDnyilFU="),
+		os.Getenv('LINE_CHANNEL_SECRET', None),
+		os.Getenv('LINE_CHANNEL_ACCESS_TOKEN', None),
 	)
 	if err != nil {
 		log.Fatal(err)
