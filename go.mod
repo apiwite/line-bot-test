@@ -1,4 +1,4 @@
-module github.com/line/line-bot-sdk-go/v7
+module github.com/apiwite/line-bot-test
 
 go 1.11
 
