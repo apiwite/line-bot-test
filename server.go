@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/line/line-bot-sdk-go/linebot"
+	"github.com/apiwite/line-bot-test/linebot"
 )
 
 func main() {
